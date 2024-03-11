@@ -149,8 +149,8 @@ export default async function OGImage(req: NextRequest) {
               src={pageInfo.authorImage}
               style={{
                 width: '100%',
-                height: '100%'
-                // transform: 'scale(1.04)'
+                height: '100%',
+                transform: 'scale(0.50)'
               }}
             />
           </div>
