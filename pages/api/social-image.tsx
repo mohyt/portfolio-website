@@ -60,7 +60,7 @@ export default async function OGImage(req: NextRequest) {
           color: 'black'
         }}
       >
-        {pageInfo.image && (
+        {/* {pageInfo.image && (
           <img
             src={pageInfo.image}
             style={{
@@ -155,12 +155,13 @@ export default async function OGImage(req: NextRequest) {
               }}
             />
           </div>
-        )}
+        )} */}
+        👋 Hello
       </div>
     ),
     {
-      width: 900,
-      height: 330,
+      width: 1200,
+      height: 630,
       fonts: [
         {
           name: 'Inter',
