@@ -15,7 +15,7 @@ const interBoldFontP = fetch(
 ).then((res) => res.arrayBuffer())
 
 export const config = {
-  runtime: 'edge'
+  runtime: 'nodejs'
 }
 
 export default async function OGImage(req: NextRequest) {
@@ -60,7 +60,7 @@ export default async function OGImage(req: NextRequest) {
           color: 'black'
         }}
       >
-        {/* {pageInfo.image && (
+        {pageInfo.image && (
           <img
             src={pageInfo.image}
             style={{
@@ -155,8 +155,7 @@ export default async function OGImage(req: NextRequest) {
               }}
             />
           </div>
-        )} */}
-        👋 Hello
+        )}
       </div>
     ),
     {
