@@ -159,8 +159,8 @@ export default async function OGImage(req: NextRequest) {
       </div>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 900,
+      height: 330,
       fonts: [
         {
           name: 'Inter',
