@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Mohit Portfolio',
+  name: 'Continuum',
   domain: 'mohit-srivastava.com',
   author: 'Mohit Srivastava',
 
